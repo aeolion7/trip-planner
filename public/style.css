@@ -16,16 +16,20 @@ body {
 }
 
 nav {
-  position: absolute;
-  background-color: rgba(255, 166, 0, 0.795);
+  position: fixed;
+  background-color: rgba(255, 166, 0);
   width: 100%;
   height: 5%;
 }
+
 .activities {
   background-color: white;
-  justify-content: flex-end;
-  /* align-items: flex-end; */
+  margin-top: 29.5%;
+  padding-bottom: 17%;
+  background-color:rgb(203, 235, 248);
+  border: 1px solid purple;
 }
+
 #container h3 {
   color: rgb(31, 31, 128);
 }
